@@ -14,7 +14,7 @@ header {
   border: solid 2px black;
   margin-left: 20%;
   margin-right: 20%;
-  font-family: 'Montserrat', sans-serif; ;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title {
@@ -59,7 +59,7 @@ header {
 }
 
 form {
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .board-table {
@@ -89,8 +89,8 @@ a {
 }
 
 .one {
-background: darkgray;
-width: 100%;
+  background: darkgray;
+  width: 100%;
 }
 
 .add-score {
@@ -99,5 +99,3 @@ width: 100%;
   width: 100%;
   margin-top: 5vh;
 }
-
-
