@@ -99,3 +99,9 @@ a {
   width: 100%;
   margin-top: 5vh;
 }
+
+.btn-submit {
+  margin-top: 5vh;
+  font-size: 15px;
+  border: 1px solid black;
+}
