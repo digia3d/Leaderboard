@@ -16,14 +16,14 @@ const submitScore = async (userName, userScore) => {
       score: userScore,
     }),
     headers: {
-      'Content-Type': 'application/json', charset:"UTF-8",
+      'Content-Type': 'application/json', charset: 'UTF-8',
     },
   });
   const gameResult = await response.json();
   return gameResult;
 };
 
-const fetchDataFromAPI = async () => {
+const fetchData = async () => {
   const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`);
   const getResult = await response.json();
   const resultArray = getResult.result;
