@@ -2,7 +2,7 @@
 
 # Project Name: Leaderboard
 
-> Description the project: With the design of this project the user can add todo list and can set it as completed or not. it's easy to use and simple ;)
+This project represents the leaderboard of the game called "FURY CAT". This is a part of the Microverse learning program. We used API to send and recive data with await and async features.
 
 
 ## Built With
@@ -17,7 +17,7 @@
 To start with this project kindly follow this steps:
   - Clone the project from github [https://github.com/digia3d/Leaderboard]
   - run a code on a text editor
-  - install dependencies with npm install
+  - install dependencies with npm install [https://webpack.js.org/guides/getting-started/]
   - run the project with npm start
   - run test cases with npm test
   
