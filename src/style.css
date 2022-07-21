@@ -12,8 +12,8 @@ header {
   gap: 10px;
   margin-top: 5vh;
   border: solid 2px black;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -53,9 +53,10 @@ header {
   gap: 30px;
 }
 
-.board-refresh-btn button {
-  font-size: 20px;
-  border: 3px solid;
+.board-submit-btn button {
+  font-size: 15px;
+  border: 2px solid black;
+  margin-top: 5vh;
 }
 
 form {
@@ -65,7 +66,6 @@ form {
 .board-table {
   display: flex;
   flex-direction: column;
-  height: 40vh;
   border: 2px solid rgb(91, 88, 88);
   margin-top: 4vh;
 }
@@ -98,4 +98,9 @@ a {
   justify-content: end;
   width: 100%;
   margin-top: 5vh;
+}
+
+.display-table-list1,
+.display-table-list3 {
+  background-color: gray;
 }
