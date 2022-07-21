@@ -53,9 +53,10 @@ header {
   gap: 30px;
 }
 
-.board-refresh-btn button {
-  font-size: 20px;
-  border: 3px solid;
+.board-submit-btn button {
+  font-size: 15px;
+  border: 2px solid black;
+  margin-top: 5vh;
 }
 
 form {
@@ -98,10 +99,4 @@ a {
   justify-content: end;
   width: 100%;
   margin-top: 5vh;
-}
-
-.btn-submit {
-  margin-top: 5vh;
-  font-size: 15px;
-  border: 1px solid black;
 }
