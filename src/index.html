@@ -10,12 +10,6 @@
 </head>
 
 <body>
-
-</body>
-
-</html>
-
-<body>
     <header>
         <div class="title">
             <h1>LEADERBOARD</h1>
@@ -23,25 +17,25 @@
 
         <div class="content">
             <section class="board-section">
-                <article class="board-refresh-btn">
+                <div class="board-refresh-btn">
                     <h2>Recent scores</h2>
-                    <button class="btn-refresh">Refresh</button>
-                </article>
-                <article class="board-table">
+                    <button type="button" class="btn-refresh">Refresh</button>
+                </div>
+                <div class="board-table">
                     <ul class="listscore" id="score_list">
                         <li class="display-table-list"><a href="#"></a></li>
                         <li class="display-table-list"><a href="#"></a></li>
                         <li class="display-table-list"><a href="#"></a></li>
                         <li class="display-table-list"><a href="#"></a></li>
                     </ul>
-                </article>
+                </div>
             </section>
 
             <section class="score-board">
                 <h2> Add your score </h2>
-                <form action="#">
-                    <input class="leaders-name" name="name" type="text" placeholder="Your name"><br><br>
-                    <input class="leaders-score" name="score" type="number" placeholder="Your score"><br><br>
+                <form id="form" action="#">
+                    <input class="leaders-name" name="name" type="text" placeholder="Your name" required><br><br>
+                    <input class="leaders-score" name="score" type="number" placeholder="Your score" required><br><br>
                     <button type="submit" class="btn-submit">Submit</button>
                 </form>
 

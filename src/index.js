@@ -1,10 +1,8 @@
 import './style.css';
 
 const refresh = document.querySelector('.btn-refresh');
-const leadersName = document.querySelector('leaders-name');
-const leadersScore = document.querySelector('leaders-score');
-const btnSubmit = document.querySelector('btn-submit');
-const listScore = document.querySelector('listscore');
+const form = document.getElementById('form');
+const listScore = document.getElementById('score_list');
 
 const gameId = 'Ni1OxKmEJWvyYe0xcLQq';
 
@@ -33,17 +31,15 @@ const fetchData = async () => {
   listScore.innerHTML = values;
 };
 
-btnSubmit.addEventListener('click', async () => {
-  await submitScore(leadersName.value, leadersScore.value);
-  leadersName.value = '';
-  leadersScore.value = '';
-  fetchData();
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  await submitScore(form.name.value, form.score.value);
+  form.name.value = '';
+  form.score.value = '';
 });
 
 refresh.addEventListener('click', async () => {
   fetchData();
 });
 
-document.addEventListener('DOMContentLoaded', async () => {
-  fetchData();
-});
+fetchData();
