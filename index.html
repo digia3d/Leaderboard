@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1bb5d15b47.js" crossorigin="anonymous"></script>
+    <title>LEADERBOARD</title>
+<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>LEADERBOARD</h1>
+        </div>
+
+        <div class="content">
+            <section class="board-section">
+                <div class="board-refresh-btn">
+                    <h2>Recent scores</h2>
+                    <button type="button" class="btn-refresh">Refresh</button>
+                </div>
+                <div class="board-table">
+                    <ul class="listscore" id="score_list">
+                        <li class="display-table-list"><a href="#"></a></li>
+                        <li class="display-table-list"><a href="#"></a></li>
+                        <li class="display-table-list"><a href="#"></a></li>
+                        <li class="display-table-list"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="score-board">
+                <h2> Add your score </h2>
+                <form id="form" action="#">
+                    <input class="leaders-name" name="name" type="text" placeholder="Your name" required><br><br>
+                    <input class="leaders-score" name="score" type="number" placeholder="Your score" required><br><br>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+
+            </section>
+        </div>
+
+    </header>
+</body>
+
+</html>
